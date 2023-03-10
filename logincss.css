@@ -1,0 +1,70 @@
+/* ตั้งค่าฟอนต์ให้กับทั้งหน้าเว็บ */
+body {
+	font-family: 'Kanit', sans-serif;
+}
+
+/* กำหนดสไตล์สำหรับฟอร์ม */
+form {
+	background-color: #ffffff; /* กำหนดสีพื้นหลังของฟอร์มเป็นสีขาว */
+  width: 400px; /* กำหนดความกว้างของฟอร์ม */
+  margin: 40px auto; /* กำหนดขนาดและตำแหน่งต่าง ๆ ของฟอร์ม */
+  padding: 20px;
+  border-radius: 20px; /* กำหนดรูปร่างของฟอร์มเป็นวงกลม */
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+h2 {
+    background-color: #ffffff;
+    width: 400px; /* กำหนดความกว้างของฟอร์ม */
+  margin: 40px auto; /* กำหนดขนาดและตำแหน่งต่าง ๆ ของฟอร์ม */
+  padding: 20px;
+  padding-left: 120px;
+  border-radius: 20px; /* กำหนดรูปร่างของฟอร์มเป็นวงกลม */
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+p{
+    
+    color: aliceblue;
+    
+    
+}
+
+.h{
+    font-size: 100%;
+    margin-top: 3%;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+
+
+input[type=text], input[type=password], input[type=email],input[type=phonenumber] {
+	padding: 10px;
+	margin: 12px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	width: 335px;
+	font-size: 16px;
+}
+
+input[type=submit] {
+	padding: 10px;
+	margin: 10px;
+	border-radius: 5px;
+	border: none;
+	background-color:#4CAF50 ;
+	color: white;
+	width: 300px;
+	font-size: 16px;
+	cursor: pointer;
+}
+form .bs{
+    font-size: 23px;
+    padding-bottom: 20px;
+    padding-left: 145px;
+    padding-right: 145px;
+    padding-top: 22px;
+    margin-top: 12px;
+}
+label {
+	font-size: 16px;
+	margin-right: 10px;
+}

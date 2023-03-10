@@ -1,0 +1,230 @@
+
+body {
+    
+    background-image: url("pic/bc.avif");
+/*    background-size: 100%;*/
+    background-repeat: repeat;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.logo {
+    
+  max-width: 150px;
+  height: auto;
+  position: absolute; /* กำหนดให้โลโก้มีตำแหน่งเป็น absolute */
+  left: 50%; /* กำหนดให้โลโก้อยู่ตรงกลางด้วย left: 50% */
+  transform: translate(-50%,29%); /* ย้ายโลโก้ไปทางซ้าย 50% ของตัวเอง */
+  
+}
+.adm{
+    
+    width: 40%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 80%;
+    align-items: center;
+/*    margin-left: 87%;*/
+    
+    
+/*    transform: translate(-1%,-9%);*/
+}
+.menu{
+/*     display: contents;*/
+    color: aliceblue;
+    font-size: 70px;
+    width: 100%;
+    width: 500px;
+    font-size: ;
+    font-family: cursive;
+/*    margin-left: 27%;*/
+    
+    background-color: rgba(0, 0, 0, 0.6);
+/*    font-weight: bold;*/
+    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    border-radius: 30px;
+    height: auto;
+}
+
+.new-item .userpic{
+    width: 40%;
+    padding-top: 23px;
+    padding-right: 23px;
+    padding-left: 23px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 80%;
+    align-items: center;
+}
+.statusdiv{
+   align-items: center;
+}
+.status1{
+     color: chartreuse;
+    text-align: right;
+        
+}
+.statusadmin{
+    color: crimson;
+    text-align: left;
+}
+.statususer{
+    color: deepskyblue;
+    text-align: left;
+}
+.adm2{
+    transform: translate(35%,-820%);
+}
+.hed{
+    display: contents;
+    color: aliceblue;
+    width: 100%;
+    width: 500px;
+    font-size: ;
+    font-family: cursive;
+/*    margin-left: 27%;*/
+    
+/*    background-color: rgba(0, 0, 0, 0.6);*/
+/*    font-weight: bold;*/
+    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    border-radius: 30%;
+    height: auto;
+    
+}
+.new-itemuser{
+/*    background-color: aliceblue;*/
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 5%;
+    border-bottom-style:solid;
+/*
+    
+    border-top-style: solid;
+    border-left-style: dotted;
+    border-right-style: dotted;
+*/
+    border-color: aliceblue;
+    border-radius: 30px;
+}
+.btn-danger{
+    margin-right: 70px;
+    margin-top: 3px;
+    transform: translate(38%,30%);
+}
+.al{
+    transform: translate(-40%,0%);
+    white-space: nowrap;
+}
+.ar{
+    white-space: nowrap;
+    transform: translate(-20%,0%);
+}
+.wt{
+    transform: translate(0%,40%);
+    border-radius: 70%;
+    display: flex;
+    position: absolute;
+    left: 1%;
+    top: 1%;
+    width: 30%;
+}
+nav {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center; /* กำหนดให้ลิงก์เมนูตรงกลางด้วย justify-content: center */
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100px; /* เปลี่ยน height เป็น 100px หรือตามที่ต้องการ */
+  padding-top: 30px;
+  padding-bottom: 12px;
+  text-align: center;
+  position: relative;
+    
+}
+
+
+nav a{
+  display: contents;
+  color: #fff;
+  text-decoration: none;
+  font-size: 85%;
+  padding-left: 5%;
+  padding-right: 1%;
+  margin-bottom: 1px; 
+  transition: all 0.8s ease-in-out;
+}
+/*
+nav a:hover {
+  transform: scale(1.1);
+  
+}
+*/
+nav .a{
+  transform: translate(0%,0%);
+  
+}
+nav .b{
+  transform: translate(10%,0%);
+  
+}
+nav .c{
+  transform: translate(23%,0%);
+  
+}
+nav .d{
+  transform: translate(40%,0%);
+  
+}
+nav .e{
+  transform: translate(90%,0%);
+  
+}
+body{
+      padding: 0;
+      margin: 0;
+      background-color: floralwhite;
+  }
+ 
+  
+
+.headcon {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+}
+.new-item {
+    padding: 24px;
+    text-align: center;
+}
+.row-head {
+    display: flex;
+    justify-content: center;
+    padding-left: 25
+}
+table{
+    border: 0.1px;
+}
+
+td{
+    color: aqua;
+}
+.tabgG{
+    color: chartreuse;
+}
+    
+.tabgP{
+    color: fuchsia;
+}
+.tabg1{
+    color: aquamarine;
+}
+.tabg2{
+    color: chartreuse;
+    border-bottom-right-radius: 50px;
+    border: 0.1px;
+}
+
+
+
+
+
